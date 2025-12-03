@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "963343775828",
+    "project_id": "studyflash-2d74a",
+    "storage_bucket": "studyflash-2d74a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963343775828:android:e32f1cef1043a58b6fd5c1",
+        "android_client_info": {
+          "package_name": "com.example.study_flash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSAlfRfT7eK0GoSL4QxM0Hnsj8Du-0-Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
