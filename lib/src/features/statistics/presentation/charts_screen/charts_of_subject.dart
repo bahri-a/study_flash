@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:study_flash/src/features/subjects/data/fach_repository.dart';
+import 'package:study_flash/src/features/subjects/data/subject_repository.dart';
 import 'package:study_flash/src/features/subjects/domain/fach_model.dart';
 import 'widgets/BalkenChartsscreen.dart';
 
@@ -13,7 +13,7 @@ class ChartsOfSubject extends StatelessWidget {
 
   Color farbe;
   String fach;
-  FachRepository fachrepo = FachRepository();
+  SubjectRepository fachrepo = SubjectRepository();
   late List<Fach> faecher = fachrepo.getFaecher().toList();
 
   @override

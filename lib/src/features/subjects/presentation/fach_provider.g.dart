@@ -41,7 +41,7 @@ final class FachNotifierProvider
   }
 }
 
-String _$fachNotifierHash() => r'e3c70d57198b629638c4d34da0b094c4723f5f28';
+String _$fachNotifierHash() => r'6635734a691202c7eef551bd4adc1d391aea5e13';
 
 abstract class _$FachNotifier extends $Notifier<List<Fach>> {
   List<Fach> build();

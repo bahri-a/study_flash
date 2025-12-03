@@ -3,13 +3,13 @@ import 'package:go_router/go_router.dart';
 import 'package:study_flash/src/features/home/presentation/home_screen/widgets/home_header.dart';
 import 'package:study_flash/src/features/statistics/presentation/charts_screen/widgets/BalkenChartsscreen.dart';
 import 'package:study_flash/src/features/statistics/presentation/charts_screen/widgets/statistics.dart';
-import 'package:study_flash/src/features/subjects/data/fach_repository.dart';
+import 'package:study_flash/src/features/subjects/data/subject_repository.dart';
 import 'package:study_flash/src/features/subjects/domain/fach_model.dart';
 
 class ChartsScreen extends StatelessWidget {
   ChartsScreen({super.key});
 
-  FachRepository fachrepo = FachRepository();
+  SubjectRepository fachrepo = SubjectRepository();
   late List<Fach> faecher = fachrepo.getFaecher().toList();
 
   @override
