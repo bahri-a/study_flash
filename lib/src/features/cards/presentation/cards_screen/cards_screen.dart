@@ -5,7 +5,7 @@ import 'package:study_flash/src/features/cards/presentation/cards_screen/widgets
 import 'package:study_flash/src/features/home/presentation/home_screen/widgets/home_header.dart';
 import 'package:study_flash/src/features/home/presentation/home_screen/widgets/progress_balken.dart';
 import 'package:study_flash/src/features/subjects/domain/fach_model.dart';
-import 'package:study_flash/src/features/subjects/presentation/fach_provider.dart';
+import 'package:study_flash/src/features/subjects/application/fach_provider.dart';
 
 class CardsScreen extends ConsumerWidget {
   const CardsScreen({super.key});

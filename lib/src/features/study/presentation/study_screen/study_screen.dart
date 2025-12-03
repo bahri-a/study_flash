@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-
-import '../../../../common_widgets/drawer_menu.dart';
-import '../../data/vokabel_repository.dart';
-import 'widgets/create_flashcard_study.dart';
+import 'package:study_flash/src/common_widgets/drawer_menu.dart';
+import 'package:study_flash/src/features/study/data/vokabel_repository.dart';
+import 'package:study_flash/src/features/study/presentation/study_screen/widgets/create_flashcard_study.dart';
 
 class StudyScreen extends StatefulWidget {
   final String fach;
