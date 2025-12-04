@@ -15,8 +15,8 @@ class Flashcard with _$Flashcard {
     required String id,
     required String topicId,
 
-    required String wort,
-    required String vokabel,
+    required String frontText,
+    required String backText,
 
     @Default(false) bool isLearned,
     required DateTime nextReview,
