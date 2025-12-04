@@ -1,21 +1,19 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'subject.dart';
+part of 'topic.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-_Subject _$SubjectFromJson(Map<String, dynamic> json) => _Subject(
+_Topic _$TopicFromJson(Map<String, dynamic> json) => _Topic(
   id: json['id'] as String,
-  userId: json['userId'] as String,
+  subjectId: json['subjectId'] as String,
   name: json['name'] as String,
-  colorCode: (json['colorCode'] as num).toInt(),
 );
 
-Map<String, dynamic> _$SubjectToJson(_Subject instance) => <String, dynamic>{
+Map<String, dynamic> _$TopicToJson(_Topic instance) => <String, dynamic>{
   'id': instance.id,
-  'userId': instance.userId,
+  'subjectId': instance.subjectId,
   'name': instance.name,
-  'colorCode': instance.colorCode,
 };

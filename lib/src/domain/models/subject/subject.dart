@@ -8,13 +8,11 @@ part 'subject.g.dart';
 class Subject with _$Subject {
   const factory Subject({
     required String id,
+    required String userId,
+
     required String name,
     required int colorCode,
   }) = _Subject;
-
-  // final String id = "";
-  // final String name = "";
-  // final int colorCode = 0;
 
   factory Subject.fromJson(Map<String, dynamic> json) =>
       _$SubjectFromJson(json);
