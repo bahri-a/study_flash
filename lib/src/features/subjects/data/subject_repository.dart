@@ -1,7 +1,7 @@
 import 'package:study_flash/src/constants/app_colors.dart';
 import 'package:study_flash/src/features/subjects/domain/fach_model.dart';
 
-class SubjectRepository {
+class SubjectRepository212121212121 {
   final List<Fach> _faecher = [
     Fach(
       name: "Mathe",
