@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:study_flash/src/core/data/CoreService.dart';
+import 'package:study_flash/src/core/data/repositories/subject_repository.dart';
 
 class CreateBox extends StatelessWidget {
   final Color fachFarbe;
@@ -13,8 +15,17 @@ class CreateBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {
+      onTap: () async {
         context.push('/themenStudy/$fachName', extra: fachFarbe);
+
+        final myCoreService = CoreService();
+
+        final myRepo = SubjectRepository(myCoreService);
+
+        final subjects = await myRepo.getSubjects();
+
+        print("Geladen: ${subjects}");
+        print("Type: ${subjects.runtimeType}");
       },
       child: Column(
         children: [

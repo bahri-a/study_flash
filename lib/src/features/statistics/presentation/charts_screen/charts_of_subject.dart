@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:study_flash/src/core/data/repositories/subject_repository.dart';
 import 'package:study_flash/src/features/subjects/data/subject_repository.dart';
 import 'package:study_flash/src/features/subjects/domain/fach_model.dart';
 import 'widgets/BalkenChartsscreen.dart';

@@ -1,5 +1,4 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:study_flash/src/core/data/repositories/subject_repository.dart';
 import 'package:study_flash/src/features/subjects/data/subject_repository.dart';
 import 'package:study_flash/src/features/subjects/domain/fach_model.dart';
 

@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:study_flash/src/core/data/CoreService.dart';
 import 'package:study_flash/src/core/domain/models/subject/subject.dart';
 

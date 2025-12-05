@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:study_flash/src/core/data/CoreService.dart';
-import 'package:study_flash/src/core/data/repositories/subject_repository.dart';
 import 'package:study_flash/src/routing/my_go_router.dart';
 import 'package:study_flash/src/utils/dark_mode_notifier.dart';
 
 final GoRouter _router = myGoRouter();
 
 void main() {
+  //runApp(child: RunMyApp());
   runApp(ProviderScope(child: RunMyApp()));
 }
 
